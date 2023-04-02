@@ -1,0 +1,122 @@
+.header {
+    margin-bottom: 2px;
+    overflow: hidden;
+    background-color: #ffc9c1;
+    padding: 20px 20px;
+  }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .header a:hover {
+    background-color: #f2c4c2;
+    color: black;
+  }
+  .header a.active {
+    background-color: #f2c4c2;
+    color: white;
+  }
+  .header-right {
+    float: right;
+  }
+  body{
+    font-family: monospace;
+    margin: 10px auto;
+    background-image: url("https://c.wallhere.com/photos/bb/6c/Sakura_blossom_minimalism_flowers_simple_pink_background-1782489.jpg!d");
+    background-size: cover;
+    background-attachment: fixed;
+    color:  rgba(1, 136, 91, 0.788);
+}
+ul{
+    padding: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.1em;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 2px 0;
+    background-color: rgb(1, 136, 91, 0.788);
+    border-radius: 5px;
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+}
+h2{
+    margin: 10px;
+}
+p{
+    margin-left: 10px;
+}
+.city-container{
+    position: relative;
+    margin: 10px 20px;
+}
+
+.city-view{
+    font-size: 18px;
+    margin-top: 70px;
+    padding-left: 800px;
+}
+.city-view.ng-animate{
+    transition: all ease 0.4s;
+    position: absolute;
+}
+.city-view.ng-enter{
+    top: 200px;
+    opacity: 0;
+}
+.city-view.ng-leave,
+.city-view.ng-enter.ng-enter-active{
+    top: 0;
+    opacity: 1;
+}
+.city-view.ng-leave.ng-leave-active{
+    top: -200px;
+    opacity: 0;
+}
+.all {
+    padding: 2% 2%;
+    display: flex;
+}
+.img {
+    border: 3px dashed black;
+    margin-bottom: 30px;
+    height: 500px;
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.card {
+    width: 600px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.card-text {
+    margin-bottom: 1rem;
+}
+.card-body {
+    background-color: #ffc9c1;
+}
+img  {
+    height: 250px;
+}
+  

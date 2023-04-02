@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posadi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="" sizes="16x16"  href="444.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-app="cityApp">
+    <div class="header">
+      <a href="animate-project.html" class="logo">Posadi</a>
+      <div class="header-right">
+        <a class="active" href="animate-project.html">Main</a>
+        <a href="animate-project2.html">About Us</a>
+        <a href="seed.html">Product view</a>
+      </div>
+    </div>
+  <script type="text/ng-template" id="animate-project.html">
+      <h2>Flowers: {{city.flower}}</h2>
+      <p><b>Color: {{city.color}}</b></p>
+      <p><b>Link: {{city.live}}</b></p>
+  </script>
+  <h1></h1>
+  <ul>
+  <li><a href="#!/marigolds">marigolds</a></li>
+  <li><a href="#!/roses">roses</a></li>
+  <li><a href="#!/tulips">tulips</a></li>
+  <li><a href="#!/poppys">poppys</a></li>
+  <li><a href="#!/snowdrops">snowdrops</a></li>
+  </ul>
+  <div class="city-container">
+  <div class="city-view" ng-view></div>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </body>
+  </html>
